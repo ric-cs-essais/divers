@@ -1,0 +1,9 @@
+I:\__Info\_Formations\_DEV\C#,.NET,WPF,LINQ,etc\_Essais\zzzzLibraryTest_MyReUsableLibrary\MyLibrary\bin\Debug\netstandard2.0\MyLibrary.deps.json
+I:\__Info\_Formations\_DEV\C#,.NET,WPF,LINQ,etc\_Essais\zzzzLibraryTest_MyReUsableLibrary\MyLibrary\bin\Debug\netstandard2.0\MyLibrary.dll
+I:\__Info\_Formations\_DEV\C#,.NET,WPF,LINQ,etc\_Essais\zzzzLibraryTest_MyReUsableLibrary\MyLibrary\bin\Debug\netstandard2.0\MyLibrary.pdb
+I:\__Info\_Formations\_DEV\C#,.NET,WPF,LINQ,etc\_Essais\zzzzLibraryTest_MyReUsableLibrary\MyLibrary\obj\Debug\netstandard2.0\MyLibrary.csprojAssemblyReference.cache
+I:\__Info\_Formations\_DEV\C#,.NET,WPF,LINQ,etc\_Essais\zzzzLibraryTest_MyReUsableLibrary\MyLibrary\obj\Debug\netstandard2.0\MyLibrary.csproj.CoreCompileInputs.cache
+I:\__Info\_Formations\_DEV\C#,.NET,WPF,LINQ,etc\_Essais\zzzzLibraryTest_MyReUsableLibrary\MyLibrary\obj\Debug\netstandard2.0\MyLibrary.AssemblyInfoInputs.cache
+I:\__Info\_Formations\_DEV\C#,.NET,WPF,LINQ,etc\_Essais\zzzzLibraryTest_MyReUsableLibrary\MyLibrary\obj\Debug\netstandard2.0\MyLibrary.AssemblyInfo.cs
+I:\__Info\_Formations\_DEV\C#,.NET,WPF,LINQ,etc\_Essais\zzzzLibraryTest_MyReUsableLibrary\MyLibrary\obj\Debug\netstandard2.0\MyLibrary.dll
+I:\__Info\_Formations\_DEV\C#,.NET,WPF,LINQ,etc\_Essais\zzzzLibraryTest_MyReUsableLibrary\MyLibrary\obj\Debug\netstandard2.0\MyLibrary.pdb

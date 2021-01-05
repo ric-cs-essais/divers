@@ -1,0 +1,14 @@
+I:\__Info\_Formations\_DEV\C#,.NET,WPF,LINQ,etc\_Essais\zzzzLibraryTest_MyAppli1_UsingMyLibrary\MyConsoleAppli1_UsingMyLibrary\bin\Debug\netcoreapp2.1\MyConsoleAppli1_UsingMyLibrary.deps.json
+I:\__Info\_Formations\_DEV\C#,.NET,WPF,LINQ,etc\_Essais\zzzzLibraryTest_MyAppli1_UsingMyLibrary\MyConsoleAppli1_UsingMyLibrary\bin\Debug\netcoreapp2.1\MyConsoleAppli1_UsingMyLibrary.runtimeconfig.json
+I:\__Info\_Formations\_DEV\C#,.NET,WPF,LINQ,etc\_Essais\zzzzLibraryTest_MyAppli1_UsingMyLibrary\MyConsoleAppli1_UsingMyLibrary\bin\Debug\netcoreapp2.1\MyConsoleAppli1_UsingMyLibrary.runtimeconfig.dev.json
+I:\__Info\_Formations\_DEV\C#,.NET,WPF,LINQ,etc\_Essais\zzzzLibraryTest_MyAppli1_UsingMyLibrary\MyConsoleAppli1_UsingMyLibrary\bin\Debug\netcoreapp2.1\MyConsoleAppli1_UsingMyLibrary.dll
+I:\__Info\_Formations\_DEV\C#,.NET,WPF,LINQ,etc\_Essais\zzzzLibraryTest_MyAppli1_UsingMyLibrary\MyConsoleAppli1_UsingMyLibrary\bin\Debug\netcoreapp2.1\MyConsoleAppli1_UsingMyLibrary.pdb
+I:\__Info\_Formations\_DEV\C#,.NET,WPF,LINQ,etc\_Essais\zzzzLibraryTest_MyAppli1_UsingMyLibrary\MyConsoleAppli1_UsingMyLibrary\bin\Debug\netcoreapp2.1\MyLibrary.dll
+I:\__Info\_Formations\_DEV\C#,.NET,WPF,LINQ,etc\_Essais\zzzzLibraryTest_MyAppli1_UsingMyLibrary\MyConsoleAppli1_UsingMyLibrary\bin\Debug\netcoreapp2.1\MyLibrary.pdb
+I:\__Info\_Formations\_DEV\C#,.NET,WPF,LINQ,etc\_Essais\zzzzLibraryTest_MyAppli1_UsingMyLibrary\MyConsoleAppli1_UsingMyLibrary\obj\Debug\netcoreapp2.1\MyConsoleAppli1_UsingMyLibrary.csprojAssemblyReference.cache
+I:\__Info\_Formations\_DEV\C#,.NET,WPF,LINQ,etc\_Essais\zzzzLibraryTest_MyAppli1_UsingMyLibrary\MyConsoleAppli1_UsingMyLibrary\obj\Debug\netcoreapp2.1\MyConsoleAppli1_UsingMyLibrary.csproj.CoreCompileInputs.cache
+I:\__Info\_Formations\_DEV\C#,.NET,WPF,LINQ,etc\_Essais\zzzzLibraryTest_MyAppli1_UsingMyLibrary\MyConsoleAppli1_UsingMyLibrary\obj\Debug\netcoreapp2.1\MyConsoleAppli1_UsingMyLibrary.AssemblyInfoInputs.cache
+I:\__Info\_Formations\_DEV\C#,.NET,WPF,LINQ,etc\_Essais\zzzzLibraryTest_MyAppli1_UsingMyLibrary\MyConsoleAppli1_UsingMyLibrary\obj\Debug\netcoreapp2.1\MyConsoleAppli1_UsingMyLibrary.AssemblyInfo.cs
+I:\__Info\_Formations\_DEV\C#,.NET,WPF,LINQ,etc\_Essais\zzzzLibraryTest_MyAppli1_UsingMyLibrary\MyConsoleAppli1_UsingMyLibrary\obj\Debug\netcoreapp2.1\MyConsoleAppli1_UsingMyLibrary.csproj.CopyComplete
+I:\__Info\_Formations\_DEV\C#,.NET,WPF,LINQ,etc\_Essais\zzzzLibraryTest_MyAppli1_UsingMyLibrary\MyConsoleAppli1_UsingMyLibrary\obj\Debug\netcoreapp2.1\MyConsoleAppli1_UsingMyLibrary.dll
+I:\__Info\_Formations\_DEV\C#,.NET,WPF,LINQ,etc\_Essais\zzzzLibraryTest_MyAppli1_UsingMyLibrary\MyConsoleAppli1_UsingMyLibrary\obj\Debug\netcoreapp2.1\MyConsoleAppli1_UsingMyLibrary.pdb
