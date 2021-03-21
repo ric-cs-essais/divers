@@ -1,0 +1,14 @@
+D:\zFormations\_DEV\C#,.NET,WPF,LINQ,etc\_Essais\___VS_ESSAIS\zzzzzTestsRapides\zzzzzTestsRapides\bin\Debug\zzzzzTestsRapides.exe.config
+D:\zFormations\_DEV\C#,.NET,WPF,LINQ,etc\_Essais\___VS_ESSAIS\zzzzzTestsRapides\zzzzzTestsRapides\bin\Debug\zzzzzTestsRapides.exe
+D:\zFormations\_DEV\C#,.NET,WPF,LINQ,etc\_Essais\___VS_ESSAIS\zzzzzTestsRapides\zzzzzTestsRapides\bin\Debug\zzzzzTestsRapides.pdb
+D:\zFormations\_DEV\C#,.NET,WPF,LINQ,etc\_Essais\___VS_ESSAIS\zzzzzTestsRapides\zzzzzTestsRapides\obj\Debug\zzzzzTestsRapides.csproj.CoreCompileInputs.cache
+D:\zFormations\_DEV\C#,.NET,WPF,LINQ,etc\_Essais\___VS_ESSAIS\zzzzzTestsRapides\zzzzzTestsRapides\obj\Debug\zzzzzTestsRapides.exe
+D:\zFormations\_DEV\C#,.NET,WPF,LINQ,etc\_Essais\___VS_ESSAIS\zzzzzTestsRapides\zzzzzTestsRapides\obj\Debug\zzzzzTestsRapides.pdb
+D:\zFormations\_DEV\C#,.NET,WPF,LINQ,etc\_Essais\___VS_ESSAIS\zzzzzTestsRapides\zzzzzTestsRapides\obj\Debug\zzzzzTestsRapides.csprojAssemblyReference.cache
+D:\zFormations\_DEV\C#,.NET,WPF,LINQ,etc\_Essais\___VS_ESSAIS\zzzzzPOO_InterfaceImplem_ConcreteReturnType\zzzzzTestsRapides\bin\Debug\zzzzzTestsRapides.exe.config
+D:\zFormations\_DEV\C#,.NET,WPF,LINQ,etc\_Essais\___VS_ESSAIS\zzzzzPOO_InterfaceImplem_ConcreteReturnType\zzzzzTestsRapides\bin\Debug\zzzzzTestsRapides.exe
+D:\zFormations\_DEV\C#,.NET,WPF,LINQ,etc\_Essais\___VS_ESSAIS\zzzzzPOO_InterfaceImplem_ConcreteReturnType\zzzzzTestsRapides\bin\Debug\zzzzzTestsRapides.pdb
+D:\zFormations\_DEV\C#,.NET,WPF,LINQ,etc\_Essais\___VS_ESSAIS\zzzzzPOO_InterfaceImplem_ConcreteReturnType\zzzzzTestsRapides\obj\Debug\zzzzzTestsRapides.csprojAssemblyReference.cache
+D:\zFormations\_DEV\C#,.NET,WPF,LINQ,etc\_Essais\___VS_ESSAIS\zzzzzPOO_InterfaceImplem_ConcreteReturnType\zzzzzTestsRapides\obj\Debug\zzzzzTestsRapides.csproj.CoreCompileInputs.cache
+D:\zFormations\_DEV\C#,.NET,WPF,LINQ,etc\_Essais\___VS_ESSAIS\zzzzzPOO_InterfaceImplem_ConcreteReturnType\zzzzzTestsRapides\obj\Debug\zzzzzTestsRapides.exe
+D:\zFormations\_DEV\C#,.NET,WPF,LINQ,etc\_Essais\___VS_ESSAIS\zzzzzPOO_InterfaceImplem_ConcreteReturnType\zzzzzTestsRapides\obj\Debug\zzzzzTestsRapides.pdb
