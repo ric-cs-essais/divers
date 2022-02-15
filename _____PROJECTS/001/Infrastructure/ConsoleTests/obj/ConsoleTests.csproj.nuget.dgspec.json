@@ -1,0 +1,314 @@
+{
+  "format": 1,
+  "restore": {
+    "\\\\PC-RP\\C# .NET WPF LINQ etc\\_Essais_Sur_Host_VM\\_____PROJECTS\\001\\Infrastructure\\ConsoleTests\\ConsoleTests.csproj": {}
+  },
+  "projects": {
+    "\\\\PC-RP\\C# .NET WPF LINQ etc\\_Essais_Sur_Host_VM\\_____PROJECTS\\001\\Infrastructure\\ConsoleTests\\ConsoleTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "\\\\PC-RP\\C# .NET WPF LINQ etc\\_Essais_Sur_Host_VM\\_____PROJECTS\\001\\Infrastructure\\ConsoleTests\\ConsoleTests.csproj",
+        "projectName": "ConsoleTests",
+        "projectPath": "\\\\PC-RP\\C# .NET WPF LINQ etc\\_Essais_Sur_Host_VM\\_____PROJECTS\\001\\Infrastructure\\ConsoleTests\\ConsoleTests.csproj",
+        "packagesPath": "C:\\Users\\RPYT-VM\\.nuget\\packages\\",
+        "outputPath": "\\\\PC-RP\\C# .NET WPF LINQ etc\\_Essais_Sur_Host_VM\\_____PROJECTS\\001\\Infrastructure\\ConsoleTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\RPYT-VM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "\\\\PC-RP\\C# .NET WPF LINQ etc\\_Essais_Sur_Host_VM\\_____PROJECTS\\001\\Infrastructure\\Infrastructure.Authentication\\Infrastructure.Authentication.csproj": {
+                "projectPath": "\\\\PC-RP\\C# .NET WPF LINQ etc\\_Essais_Sur_Host_VM\\_____PROJECTS\\001\\Infrastructure\\Infrastructure.Authentication\\Infrastructure.Authentication.csproj"
+              },
+              "\\\\PC-RP\\C# .NET WPF LINQ etc\\_Essais_Sur_Host_VM\\_____PROJECTS\\001\\Infrastructure\\Infrastructure.Persistence.Database.Common\\Infrastructure.Persistence.Database.Common.csproj": {
+                "projectPath": "\\\\PC-RP\\C# .NET WPF LINQ etc\\_Essais_Sur_Host_VM\\_____PROJECTS\\001\\Infrastructure\\Infrastructure.Persistence.Database.Common\\Infrastructure.Persistence.Database.Common.csproj"
+              },
+              "\\\\PC-RP\\C# .NET WPF LINQ etc\\_Essais_Sur_Host_VM\\_____PROJECTS\\001\\Infrastructure\\Infrastructure.Persistence.Database.Sql.Access.SqlServer\\Infrastructure.Persistence.Database.Sql.Access.SqlServer.csproj": {
+                "projectPath": "\\\\PC-RP\\C# .NET WPF LINQ etc\\_Essais_Sur_Host_VM\\_____PROJECTS\\001\\Infrastructure\\Infrastructure.Persistence.Database.Sql.Access.SqlServer\\Infrastructure.Persistence.Database.Sql.Access.SqlServer.csproj"
+              },
+              "\\\\PC-RP\\C# .NET WPF LINQ etc\\_Essais_Sur_Host_VM\\_____PROJECTS\\001\\Infrastructure\\Infrastructure.Server\\Infrastructure.Server.csproj": {
+                "projectPath": "\\\\PC-RP\\C# .NET WPF LINQ etc\\_Essais_Sur_Host_VM\\_____PROJECTS\\001\\Infrastructure\\Infrastructure.Server\\Infrastructure.Server.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "\\\\PC-RP\\C# .NET WPF LINQ etc\\_Essais_Sur_Host_VM\\_____PROJECTS\\001\\Infrastructure\\Infrastructure.Authentication\\Infrastructure.Authentication.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "\\\\PC-RP\\C# .NET WPF LINQ etc\\_Essais_Sur_Host_VM\\_____PROJECTS\\001\\Infrastructure\\Infrastructure.Authentication\\Infrastructure.Authentication.csproj",
+        "projectName": "Infrastructure.Authentication",
+        "projectPath": "\\\\PC-RP\\C# .NET WPF LINQ etc\\_Essais_Sur_Host_VM\\_____PROJECTS\\001\\Infrastructure\\Infrastructure.Authentication\\Infrastructure.Authentication.csproj",
+        "packagesPath": "C:\\Users\\RPYT-VM\\.nuget\\packages\\",
+        "outputPath": "\\\\PC-RP\\C# .NET WPF LINQ etc\\_Essais_Sur_Host_VM\\_____PROJECTS\\001\\Infrastructure\\Infrastructure.Authentication\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\RPYT-VM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "\\\\PC-RP\\C# .NET WPF LINQ etc\\_Essais_Sur_Host_VM\\_____PROJECTS\\001\\Infrastructure\\Infrastructure.Persistence.Database.Common\\Infrastructure.Persistence.Database.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "\\\\PC-RP\\C# .NET WPF LINQ etc\\_Essais_Sur_Host_VM\\_____PROJECTS\\001\\Infrastructure\\Infrastructure.Persistence.Database.Common\\Infrastructure.Persistence.Database.Common.csproj",
+        "projectName": "Infrastructure.Persistence.Database.Common",
+        "projectPath": "\\\\PC-RP\\C# .NET WPF LINQ etc\\_Essais_Sur_Host_VM\\_____PROJECTS\\001\\Infrastructure\\Infrastructure.Persistence.Database.Common\\Infrastructure.Persistence.Database.Common.csproj",
+        "packagesPath": "C:\\Users\\RPYT-VM\\.nuget\\packages\\",
+        "outputPath": "\\\\PC-RP\\C# .NET WPF LINQ etc\\_Essais_Sur_Host_VM\\_____PROJECTS\\001\\Infrastructure\\Infrastructure.Persistence.Database.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\RPYT-VM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "\\\\PC-RP\\C# .NET WPF LINQ etc\\_Essais_Sur_Host_VM\\_____PROJECTS\\001\\Infrastructure\\Infrastructure.Persistence.Database.Sql.Access.SqlServer\\Infrastructure.Persistence.Database.Sql.Access.SqlServer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "\\\\PC-RP\\C# .NET WPF LINQ etc\\_Essais_Sur_Host_VM\\_____PROJECTS\\001\\Infrastructure\\Infrastructure.Persistence.Database.Sql.Access.SqlServer\\Infrastructure.Persistence.Database.Sql.Access.SqlServer.csproj",
+        "projectName": "Infrastructure.Persistence.Database.Sql.Access.SqlServer",
+        "projectPath": "\\\\PC-RP\\C# .NET WPF LINQ etc\\_Essais_Sur_Host_VM\\_____PROJECTS\\001\\Infrastructure\\Infrastructure.Persistence.Database.Sql.Access.SqlServer\\Infrastructure.Persistence.Database.Sql.Access.SqlServer.csproj",
+        "packagesPath": "C:\\Users\\RPYT-VM\\.nuget\\packages\\",
+        "outputPath": "\\\\PC-RP\\C# .NET WPF LINQ etc\\_Essais_Sur_Host_VM\\_____PROJECTS\\001\\Infrastructure\\Infrastructure.Persistence.Database.Sql.Access.SqlServer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\RPYT-VM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "\\\\PC-RP\\C# .NET WPF LINQ etc\\_Essais_Sur_Host_VM\\_____PROJECTS\\001\\Infrastructure\\Infrastructure.Persistence.Database.Common\\Infrastructure.Persistence.Database.Common.csproj": {
+                "projectPath": "\\\\PC-RP\\C# .NET WPF LINQ etc\\_Essais_Sur_Host_VM\\_____PROJECTS\\001\\Infrastructure\\Infrastructure.Persistence.Database.Common\\Infrastructure.Persistence.Database.Common.csproj"
+              },
+              "\\\\PC-RP\\C# .NET WPF LINQ etc\\_Essais_Sur_Host_VM\\_____PROJECTS\\001\\Infrastructure\\Infrastructure.Server\\Infrastructure.Server.csproj": {
+                "projectPath": "\\\\PC-RP\\C# .NET WPF LINQ etc\\_Essais_Sur_Host_VM\\_____PROJECTS\\001\\Infrastructure\\Infrastructure.Server\\Infrastructure.Server.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "\\\\PC-RP\\C# .NET WPF LINQ etc\\_Essais_Sur_Host_VM\\_____PROJECTS\\001\\Infrastructure\\Infrastructure.Server\\Infrastructure.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "\\\\PC-RP\\C# .NET WPF LINQ etc\\_Essais_Sur_Host_VM\\_____PROJECTS\\001\\Infrastructure\\Infrastructure.Server\\Infrastructure.Server.csproj",
+        "projectName": "Infrastructure.Server",
+        "projectPath": "\\\\PC-RP\\C# .NET WPF LINQ etc\\_Essais_Sur_Host_VM\\_____PROJECTS\\001\\Infrastructure\\Infrastructure.Server\\Infrastructure.Server.csproj",
+        "packagesPath": "C:\\Users\\RPYT-VM\\.nuget\\packages\\",
+        "outputPath": "\\\\PC-RP\\C# .NET WPF LINQ etc\\_Essais_Sur_Host_VM\\_____PROJECTS\\001\\Infrastructure\\Infrastructure.Server\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\RPYT-VM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "\\\\PC-RP\\C# .NET WPF LINQ etc\\_Essais_Sur_Host_VM\\_____PROJECTS\\001\\Infrastructure\\Infrastructure.Authentication\\Infrastructure.Authentication.csproj": {
+                "projectPath": "\\\\PC-RP\\C# .NET WPF LINQ etc\\_Essais_Sur_Host_VM\\_____PROJECTS\\001\\Infrastructure\\Infrastructure.Authentication\\Infrastructure.Authentication.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

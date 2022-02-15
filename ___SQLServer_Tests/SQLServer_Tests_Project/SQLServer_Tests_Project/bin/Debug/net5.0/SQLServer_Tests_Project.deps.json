@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "SQLServer_Tests_Project/1.0.0": {
+        "runtime": {
+          "SQLServer_Tests_Project.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SQLServer_Tests_Project/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

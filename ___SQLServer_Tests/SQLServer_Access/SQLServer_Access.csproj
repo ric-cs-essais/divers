@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+
+    <!-- Pour le mode Console Application uniquement -->
+    <!--<TargetFramework>net5.0</TargetFramework>-->
+
+
+    <!-- Pour le mode Permettant de faire d'ouvrir des messageBox via System.Windows.Forms (exclusif du mode ci-dessus !) -->
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+
+
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,12 @@
+\\PC-RP\C# .NET WPF LINQ etc\_Essais_Sur_Host_VM\___SQLServer_Tests\SQLServer_Access\obj\Debug\net5.0-windows\SQLServer_Access.GeneratedMSBuildEditorConfig.editorconfig
+\\PC-RP\C# .NET WPF LINQ etc\_Essais_Sur_Host_VM\___SQLServer_Tests\SQLServer_Access\obj\Debug\net5.0-windows\SQLServer_Access.AssemblyInfoInputs.cache
+\\PC-RP\C# .NET WPF LINQ etc\_Essais_Sur_Host_VM\___SQLServer_Tests\SQLServer_Access\obj\Debug\net5.0-windows\SQLServer_Access.AssemblyInfo.cs
+\\PC-RP\C# .NET WPF LINQ etc\_Essais_Sur_Host_VM\___SQLServer_Tests\SQLServer_Access\obj\Debug\net5.0-windows\SQLServer_Access.csproj.CoreCompileInputs.cache
+\\PC-RP\C# .NET WPF LINQ etc\_Essais_Sur_Host_VM\___SQLServer_Tests\SQLServer_Access\bin\Debug\net5.0-windows\SQLServer_Access.deps.json
+\\PC-RP\C# .NET WPF LINQ etc\_Essais_Sur_Host_VM\___SQLServer_Tests\SQLServer_Access\bin\Debug\net5.0-windows\SQLServer_Access.dll
+\\PC-RP\C# .NET WPF LINQ etc\_Essais_Sur_Host_VM\___SQLServer_Tests\SQLServer_Access\bin\Debug\net5.0-windows\ref\SQLServer_Access.dll
+\\PC-RP\C# .NET WPF LINQ etc\_Essais_Sur_Host_VM\___SQLServer_Tests\SQLServer_Access\bin\Debug\net5.0-windows\SQLServer_Access.pdb
+\\PC-RP\C# .NET WPF LINQ etc\_Essais_Sur_Host_VM\___SQLServer_Tests\SQLServer_Access\obj\Debug\net5.0-windows\SQLServer_Access.dll
+\\PC-RP\C# .NET WPF LINQ etc\_Essais_Sur_Host_VM\___SQLServer_Tests\SQLServer_Access\obj\Debug\net5.0-windows\ref\SQLServer_Access.dll
+\\PC-RP\C# .NET WPF LINQ etc\_Essais_Sur_Host_VM\___SQLServer_Tests\SQLServer_Access\obj\Debug\net5.0-windows\SQLServer_Access.pdb
+\\PC-RP\C# .NET WPF LINQ etc\_Essais_Sur_Host_VM\___SQLServer_Tests\SQLServer_Access\obj\Debug\net5.0-windows\SQLServer_Access.csproj.AssemblyReference.cache

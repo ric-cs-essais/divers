@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Infrastructure.Server/1.0.0": {
+        "dependencies": {
+          "Infrastructure.Authentication": "1.0.0"
+        },
+        "runtime": {
+          "Infrastructure.Server.dll": {}
+        }
+      },
+      "Infrastructure.Authentication/1.0.0": {
+        "runtime": {
+          "Infrastructure.Authentication.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Infrastructure.Server/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Infrastructure.Authentication/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

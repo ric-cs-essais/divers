@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    
+    <!-- Pour le mode Console Application uniquement -->
+    <!--<TargetFramework>net5.0</TargetFramework>-->
+    
+
+    <!-- Pour le mode Permettant de faire d'ouvrir des messageBox via System.Windows.Forms (exclusif du mode ci-dessus !) -->
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    
+    
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\SQLServer_Access\SQLServer_Access.csproj" />
+  </ItemGroup>
+
+</Project>
