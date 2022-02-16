@@ -1,8 +1,0 @@
-{
-  "runtimeOptions": {
-    "additionalProbingPaths": [
-      "C:\\Users\\RPYT-VM\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\RPYT-VM\\.nuget\\packages"
-    ]
-  }
-}
