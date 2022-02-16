@@ -1,18 +1,8 @@
-\\PC-RP\C# .NET WPF LINQ etc\_Essais_Sur_Host_VM\_____PROJECTS\001\Infrastructure\Persistence.Database.Common\bin\Debug\net5.0\Infrastructure.Persistence.Database.Common.deps.json
-\\PC-RP\C# .NET WPF LINQ etc\_Essais_Sur_Host_VM\_____PROJECTS\001\Infrastructure\Persistence.Database.Common\bin\Debug\net5.0\Infrastructure.Persistence.Database.Common.dll
-\\PC-RP\C# .NET WPF LINQ etc\_Essais_Sur_Host_VM\_____PROJECTS\001\Infrastructure\Persistence.Database.Common\bin\Debug\net5.0\ref\Infrastructure.Persistence.Database.Common.dll
-\\PC-RP\C# .NET WPF LINQ etc\_Essais_Sur_Host_VM\_____PROJECTS\001\Infrastructure\Persistence.Database.Common\bin\Debug\net5.0\Infrastructure.Persistence.Database.Common.pdb
-\\PC-RP\C# .NET WPF LINQ etc\_Essais_Sur_Host_VM\_____PROJECTS\001\Infrastructure\Persistence.Database.Common\obj\Debug\net5.0\Infrastructure.Persistence.Database.Common.GeneratedMSBuildEditorConfig.editorconfig
-\\PC-RP\C# .NET WPF LINQ etc\_Essais_Sur_Host_VM\_____PROJECTS\001\Infrastructure\Persistence.Database.Common\obj\Debug\net5.0\Infrastructure.Persistence.Database.Common.AssemblyInfoInputs.cache
-\\PC-RP\C# .NET WPF LINQ etc\_Essais_Sur_Host_VM\_____PROJECTS\001\Infrastructure\Persistence.Database.Common\obj\Debug\net5.0\Infrastructure.Persistence.Database.Common.AssemblyInfo.cs
-\\PC-RP\C# .NET WPF LINQ etc\_Essais_Sur_Host_VM\_____PROJECTS\001\Infrastructure\Persistence.Database.Common\obj\Debug\net5.0\Infrastructure.Persistence.Database.Common.csproj.CoreCompileInputs.cache
-\\PC-RP\C# .NET WPF LINQ etc\_Essais_Sur_Host_VM\_____PROJECTS\001\Infrastructure\Persistence.Database.Common\obj\Debug\net5.0\Infrastructure.Persistence.Database.Common.dll
-\\PC-RP\C# .NET WPF LINQ etc\_Essais_Sur_Host_VM\_____PROJECTS\001\Infrastructure\Persistence.Database.Common\obj\Debug\net5.0\ref\Infrastructure.Persistence.Database.Common.dll
-\\PC-RP\C# .NET WPF LINQ etc\_Essais_Sur_Host_VM\_____PROJECTS\001\Infrastructure\Persistence.Database.Common\obj\Debug\net5.0\Infrastructure.Persistence.Database.Common.pdb
 \\PC-RP\C# .NET WPF LINQ etc\_Essais_Sur_Host_VM\_____PROJECTS\001\Infrastructure\Infrastructure.Persistence.Database.Common\bin\Debug\net5.0\Infrastructure.Persistence.Database.Common.deps.json
 \\PC-RP\C# .NET WPF LINQ etc\_Essais_Sur_Host_VM\_____PROJECTS\001\Infrastructure\Infrastructure.Persistence.Database.Common\bin\Debug\net5.0\Infrastructure.Persistence.Database.Common.dll
 \\PC-RP\C# .NET WPF LINQ etc\_Essais_Sur_Host_VM\_____PROJECTS\001\Infrastructure\Infrastructure.Persistence.Database.Common\bin\Debug\net5.0\ref\Infrastructure.Persistence.Database.Common.dll
 \\PC-RP\C# .NET WPF LINQ etc\_Essais_Sur_Host_VM\_____PROJECTS\001\Infrastructure\Infrastructure.Persistence.Database.Common\bin\Debug\net5.0\Infrastructure.Persistence.Database.Common.pdb
+\\PC-RP\C# .NET WPF LINQ etc\_Essais_Sur_Host_VM\_____PROJECTS\001\Infrastructure\Infrastructure.Persistence.Database.Common\obj\Debug\net5.0\Infrastructure.Persistence.Database.Common.csproj.AssemblyReference.cache
 \\PC-RP\C# .NET WPF LINQ etc\_Essais_Sur_Host_VM\_____PROJECTS\001\Infrastructure\Infrastructure.Persistence.Database.Common\obj\Debug\net5.0\Infrastructure.Persistence.Database.Common.GeneratedMSBuildEditorConfig.editorconfig
 \\PC-RP\C# .NET WPF LINQ etc\_Essais_Sur_Host_VM\_____PROJECTS\001\Infrastructure\Infrastructure.Persistence.Database.Common\obj\Debug\net5.0\Infrastructure.Persistence.Database.Common.AssemblyInfoInputs.cache
 \\PC-RP\C# .NET WPF LINQ etc\_Essais_Sur_Host_VM\_____PROJECTS\001\Infrastructure\Infrastructure.Persistence.Database.Common\obj\Debug\net5.0\Infrastructure.Persistence.Database.Common.AssemblyInfo.cs
@@ -20,4 +10,3 @@
 \\PC-RP\C# .NET WPF LINQ etc\_Essais_Sur_Host_VM\_____PROJECTS\001\Infrastructure\Infrastructure.Persistence.Database.Common\obj\Debug\net5.0\Infrastructure.Persistence.Database.Common.dll
 \\PC-RP\C# .NET WPF LINQ etc\_Essais_Sur_Host_VM\_____PROJECTS\001\Infrastructure\Infrastructure.Persistence.Database.Common\obj\Debug\net5.0\ref\Infrastructure.Persistence.Database.Common.dll
 \\PC-RP\C# .NET WPF LINQ etc\_Essais_Sur_Host_VM\_____PROJECTS\001\Infrastructure\Infrastructure.Persistence.Database.Common\obj\Debug\net5.0\Infrastructure.Persistence.Database.Common.pdb
-\\PC-RP\C# .NET WPF LINQ etc\_Essais_Sur_Host_VM\_____PROJECTS\001\Infrastructure\Infrastructure.Persistence.Database.Common\obj\Debug\net5.0\Infrastructure.Persistence.Database.Common.csproj.AssemblyReference.cache

@@ -83,14 +83,14 @@ namespace Infrastructure.Persistence.Database.Sql.Access
             return (retour);
         }
 
-        public void treatSqlSelectQuery(string psSqlSelectQuery, IReadOnlyCollection<SqlDbType> poReturnedColumnsType)
+        public void treatSqlSelectQuery(string psSqlSelectQuery, IReadOnlyCollection<SqlDbType> poReturnedColumnsType, Action<ushort, object> pfReadValue)
         {
             try
             {
                 this._open();
 
                 SqlCommand oSqlCommand = this._createSqlCommand(psSqlSelectQuery);
-                this._readSqlQueryResult(oSqlCommand, poReturnedColumnsType);
+                this._readSqlQueryResult(oSqlCommand, poReturnedColumnsType, pfReadValue);
 
             }
             catch (Exception oException)
@@ -103,7 +103,7 @@ namespace Infrastructure.Persistence.Database.Sql.Access
             }
         }
 
-        private void _readSqlQueryResult(SqlCommand poSqlCommand, IReadOnlyCollection<SqlDbType> poReturnedColumnsType)
+        private void _readSqlQueryResult(SqlCommand poSqlCommand, IReadOnlyCollection<SqlDbType> poReturnedColumnsType, Action<ushort, object> pfReadValue)
         {
             using (DbDataReader oRecordReader = poSqlCommand.ExecuteReader())
             {
@@ -112,31 +112,32 @@ namespace Infrastructure.Persistence.Database.Sql.Access
 
                     while (oRecordReader.Read()) //Pour un enregistrement donné parmi ceux retournés
                     {
-                        this._treatSqlSelectQueryResultRecord(oRecordReader, poReturnedColumnsType);
+                        this._treatSqlSelectQueryResultRecord(oRecordReader, poReturnedColumnsType, pfReadValue);
                     }
                 }
             }
         }
 
-        private void _treatSqlSelectQueryResultRecord(DbDataReader oRecordReader, IReadOnlyCollection<SqlDbType> poReturnedColumnsType)
+        private void _treatSqlSelectQueryResultRecord(DbDataReader oRecordReader, IReadOnlyCollection<SqlDbType> poReturnedColumnsType, Action<ushort, object> pfReadValue)
         {
             ushort iColumnIndex = 0;
             try
             {
+                object fieldValue = null;
                 foreach (SqlDbType pReturnedColumnType in poReturnedColumnsType) //Lecture des colonnes récupérées
                 {
                     switch (pReturnedColumnType)
                     {
                         case SqlDbType.Int:
-                            this._treatSqlSelectQueryResultRecordColumnAsInt(iColumnIndex, oRecordReader);
+                            fieldValue = this._treatSqlSelectQueryResultRecordColumnAsInt(iColumnIndex, oRecordReader);
                             break;
 
                         case SqlDbType.Char:
-                            this._treatSqlSelectQueryResultRecordColumnAsString(iColumnIndex, oRecordReader);
+                            fieldValue = this._treatSqlSelectQueryResultRecordColumnAsString(iColumnIndex, oRecordReader);
                             break;
 
                         case SqlDbType.Bit:
-                            this._treatSqlSelectQueryResultRecordColumnAsBool(iColumnIndex, oRecordReader);
+                            fieldValue = this._treatSqlSelectQueryResultRecordColumnAsBool(iColumnIndex, oRecordReader);
                             break;
 
                         case SqlDbType.Date:
@@ -145,8 +146,11 @@ namespace Infrastructure.Persistence.Database.Sql.Access
                         default:
                             break;
                     }
+
+                    pfReadValue(iColumnIndex, fieldValue);
+                    //Console.WriteLine("\n");
+
                     iColumnIndex++;
-                    Console.WriteLine("\n");
 
                 }
             }
@@ -155,23 +159,26 @@ namespace Infrastructure.Persistence.Database.Sql.Access
                 throw new Exception($"Erreur lors de la lecture de la colonne No {iColumnIndex} du résultat de la requête.\n{oException.Message}");
             }
 
-            Console.WriteLine("\n");
+            //Console.WriteLine("\n");
         }
 
-        private void _treatSqlSelectQueryResultRecordColumnAsInt(ushort piColumnIndex, DbDataReader poRecordReader)
+        private int _treatSqlSelectQueryResultRecordColumnAsInt(ushort piColumnIndex, DbDataReader poRecordReader)
         {
             int iFieldValue = Convert.ToInt32(poRecordReader.GetValue(piColumnIndex));
-            Console.WriteLine($"Colonne No{piColumnIndex} ; Entier = {iFieldValue}");
+            //Console.WriteLine($"Colonne No{piColumnIndex} ; Entier = {iFieldValue}");
+            return (iFieldValue);
         }
-        private void _treatSqlSelectQueryResultRecordColumnAsString(ushort piColumnIndex, DbDataReader poRecordReader)
+        private string _treatSqlSelectQueryResultRecordColumnAsString(ushort piColumnIndex, DbDataReader poRecordReader)
         {
             string sFieldValue = poRecordReader.GetString(piColumnIndex);
-            Console.WriteLine($"Colonne No{piColumnIndex} ; Chaîne = {sFieldValue}");
+            //Console.WriteLine($"Colonne No{piColumnIndex} ; Chaîne = {sFieldValue}");
+            return (sFieldValue);
         }
-        private void _treatSqlSelectQueryResultRecordColumnAsBool(ushort piColumnIndex, DbDataReader poRecordReader)
+        private bool _treatSqlSelectQueryResultRecordColumnAsBool(ushort piColumnIndex, DbDataReader poRecordReader)
         {
             bool bFieldValue = poRecordReader.GetBoolean(piColumnIndex);
-            Console.WriteLine($"Colonne No{piColumnIndex} ; Bool = {bFieldValue}");
+            //Console.WriteLine($"Colonne No{piColumnIndex} ; Bool = {bFieldValue}");
+            return (bFieldValue);
         }
 
         private SqlParameter _addSqlParameter(SqlCommand poSqlCommand, string psParameterId, SqlDbType pDataType)

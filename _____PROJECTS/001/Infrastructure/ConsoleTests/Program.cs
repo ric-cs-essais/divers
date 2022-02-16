@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.ObjectModel;
+using System.Collections.Generic;
 
 using Infrastructure.Authentication;
 using Infrastructure.Authentication.Factories;
@@ -9,9 +11,9 @@ using Infrastructure.Persistence.Database.Common;
 using Infrastructure.Persistence.Database.Common.Factories;
 
 using Infrastructure.Persistence.Database.Sql.Access;
-using System.Collections.ObjectModel;
-using System.Data;
-using System.Collections.Generic;
+
+using Infrastructure.Persistence.DAO.Database.Sql.Common;
+using Infrastructure.Persistence.DAO.Database.Sql.Common.SqlQuery;
 
 namespace ConsoleTests
 {
@@ -20,16 +22,30 @@ namespace ConsoleTests
         homme = 0,
         femme = 1
     }
-    class Personne
-    {
-        public string nom;
-        public string prenom;
-        public Sexe sexe;
-    }
+
     class Program
     {
-        static (string, string, bool) oneRecord;
-        static Personne oPersonne;
+
+        static string toString(object pFieldValue) //<<<<<<< A METTRE DANS Infrastructure.Persistence.DAO.Database.Sql.Common
+        {
+            return $"{((string)pFieldValue).Trim()}";
+        }
+        // ET passer les Field*.cs dans un dossier Field/
+
+
+        class PersonneRecord
+        {
+            public string nom;
+            public string prenom;
+            public Sexe sexe;
+        };
+
+
+        static Sexe toSexe(object pFieldValue)
+        {
+            return ((bool)pFieldValue) ? Sexe.homme : Sexe.femme;
+        }
+
 
         static void Main(string[] args)
         {
@@ -42,36 +58,35 @@ namespace ConsoleTests
             DatabaseName oDatabaseName = DatabaseNameFactory.getInstance("MY_TEST_DATABASE");
             SqlServerAccess oSqlAccess = new SqlServerAccess(oServerAccess, oDatabaseName);
 
-            //oSqlAccess.treatSqlSelectQuery(
-            //    "SELECT NOM, PRENOM, Homme FROM dbo.Personnes ORDER BY PRENOM DESC;",
-            //    new ReadOnlyCollection<SqlDbType>(new List<SqlDbType> { 
-            //        SqlDbType.Char, SqlDbType.Char, SqlDbType.Bit
-            //    })
-            //);
 
-            //(int, string) tuples;
-            //tuples.[1]= 10;
-            //tuples.Item2 = "";
+            List<PersonneRecord> oPersonneRecords = new List<PersonneRecord>();
+            PersonneRecord oPersonneRecord = null;
 
-            oPersonne = new Personne();
+            new SqlSelectQuery
+            {
+                Text = "SELECT NOM, PRENOM, Homme FROM dbo.Personnes ORDER BY PRENOM DESC;",
+                fOnStartRecord = () => { oPersonneRecord = new PersonneRecord(); },
+                oFieldsAffectionOrderedList = new ReadOnlyCollection<FieldAffectation>(new List<FieldAffectation>
+                {
+                    new FieldAffectation {
+                        FieldType = FieldType.str,
+                        fAffectRecordField = (object pFieldValue) => { oPersonneRecord.nom = toString(pFieldValue); }
+                    },
+                    new FieldAffectation {
+                        FieldType = FieldType.str,
+                        fAffectRecordField = (object pFieldValue) => { oPersonneRecord.prenom = toString(pFieldValue); }
+                    },
+                    new FieldAffectation {
+                        FieldType = FieldType.boolean,
+                        fAffectRecordField = (object pFieldValue) => { oPersonneRecord.sexe = toSexe(pFieldValue); }
+                    }
+                }),
+                fOnEndRecord = () => { oPersonneRecords.Add(oPersonneRecord); }
+            };
+
+            Console.WriteLine(Newtonsoft.Json.JsonConvert.SerializeObject(oPersonneRecords));
 
             Console.ReadKey();
-        }
-
-        static void catchValue(ushort piColumnIndex, string psValue)
-        {
-            oneRecord.Item1 = psValue;
-            
-        }
-
-        static void catchValue(ushort piColumnIndex, int piValue)
-        {
-
-        }
-
-        static void catchValue(ushort piColumnIndex, bool psValue)
-        {
-
         }
 
 

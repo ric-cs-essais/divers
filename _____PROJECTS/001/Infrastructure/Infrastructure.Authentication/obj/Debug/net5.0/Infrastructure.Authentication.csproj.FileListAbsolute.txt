@@ -9,4 +9,3 @@
 \\PC-RP\C# .NET WPF LINQ etc\_Essais_Sur_Host_VM\_____PROJECTS\001\Infrastructure\Infrastructure.Authentication\obj\Debug\net5.0\Infrastructure.Authentication.dll
 \\PC-RP\C# .NET WPF LINQ etc\_Essais_Sur_Host_VM\_____PROJECTS\001\Infrastructure\Infrastructure.Authentication\obj\Debug\net5.0\ref\Infrastructure.Authentication.dll
 \\PC-RP\C# .NET WPF LINQ etc\_Essais_Sur_Host_VM\_____PROJECTS\001\Infrastructure\Infrastructure.Authentication\obj\Debug\net5.0\Infrastructure.Authentication.pdb
-\\PC-RP\C# .NET WPF LINQ etc\_Essais_Sur_Host_VM\_____PROJECTS\001\Infrastructure\Infrastructure.Authentication\obj\Debug\net5.0\Infrastructure.Authentication.csproj.AssemblyReference.cache

@@ -6,11 +6,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Infrastructure.Authentication\Infrastructure.Authentication.csproj" />
+    <ProjectReference Include="..\Infrastructure.Persistence.DAO.Database.Sql.Common\Infrastructure.Persistence.DAO.Database.Sql.Common.csproj" />
     <ProjectReference Include="..\Infrastructure.Persistence.Database.Common\Infrastructure.Persistence.Database.Common.csproj" />
     <ProjectReference Include="..\Infrastructure.Persistence.Database.Sql.Access.SqlServer\Infrastructure.Persistence.Database.Sql.Access.SqlServer.csproj" />
     <ProjectReference Include="..\Infrastructure.Server\Infrastructure.Server.csproj" />

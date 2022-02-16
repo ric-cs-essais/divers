@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "Transverse.Functions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Transverse.Functions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Transverse.Functions.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Transverse.Functions/1.0.0": {
+      "type": "project",
+      "path": "../Transverse.Functions/Transverse.Functions.csproj",
+      "msbuildProject": "../Transverse.Functions/Transverse.Functions.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "Transverse.Functions >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\RPYT-VM\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "\\\\PC-RP\\C# .NET WPF LINQ etc\\_Essais_Sur_Host_VM\\_____PROJECTS\\001\\Infrastructure\\Transverse.Functions\\Transverse.Functions.csproj": {
+              "projectPath": "\\\\PC-RP\\C# .NET WPF LINQ etc\\_Essais_Sur_Host_VM\\_____PROJECTS\\001\\Infrastructure\\Transverse.Functions\\Transverse.Functions.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

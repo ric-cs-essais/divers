@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "LSonRrtCV472fqT4zcLqyQTLcsz+C9syeBpWG1SCJKOdlwi1xs7T+zbzmDJSMs9febI7HtvTM83WqYpwS2+ePg==",
+  "dgSpecHash": "4uNro5uPqxnSSWFWWmWEmmZcicidulPrQQPHe8omKq94oz8F/tvXh8XAi73b1ABhCWb6xHc4TdExz2cppDJebQ==",
   "success": true,
   "projectFilePath": "\\\\PC-RP\\C# .NET WPF LINQ etc\\_Essais_Sur_Host_VM\\_____PROJECTS\\001\\Infrastructure\\ConsoleTests\\ConsoleTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\RPYT-VM\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\RPYT-VM\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "C:\\Users\\RPYT-VM\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\RPYT-VM\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
     "C:\\Users\\RPYT-VM\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\RPYT-VM\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "\\\\PC-RP\\C# .NET WPF LINQ etc\\_Essais_Sur_Host_VM\\_____PROJECTS\\001\\Infrastructure\\Persistence.Database.Common\\Persistence.Database.Common.csproj": {}
+    "\\\\PC-RP\\C# .NET WPF LINQ etc\\_Essais_Sur_Host_VM\\_____PROJECTS\\001\\Infrastructure\\Transverse.Functions\\Transverse.Functions.csproj": {}
   },
   "projects": {
-    "\\\\PC-RP\\C# .NET WPF LINQ etc\\_Essais_Sur_Host_VM\\_____PROJECTS\\001\\Infrastructure\\Persistence.Database.Common\\Persistence.Database.Common.csproj": {
+    "\\\\PC-RP\\C# .NET WPF LINQ etc\\_Essais_Sur_Host_VM\\_____PROJECTS\\001\\Infrastructure\\Transverse.Functions\\Transverse.Functions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "\\\\PC-RP\\C# .NET WPF LINQ etc\\_Essais_Sur_Host_VM\\_____PROJECTS\\001\\Infrastructure\\Persistence.Database.Common\\Persistence.Database.Common.csproj",
-        "projectName": "Persistence.Database.Common",
-        "projectPath": "\\\\PC-RP\\C# .NET WPF LINQ etc\\_Essais_Sur_Host_VM\\_____PROJECTS\\001\\Infrastructure\\Persistence.Database.Common\\Persistence.Database.Common.csproj",
+        "projectUniqueName": "\\\\PC-RP\\C# .NET WPF LINQ etc\\_Essais_Sur_Host_VM\\_____PROJECTS\\001\\Infrastructure\\Transverse.Functions\\Transverse.Functions.csproj",
+        "projectName": "Transverse.Functions",
+        "projectPath": "\\\\PC-RP\\C# .NET WPF LINQ etc\\_Essais_Sur_Host_VM\\_____PROJECTS\\001\\Infrastructure\\Transverse.Functions\\Transverse.Functions.csproj",
         "packagesPath": "C:\\Users\\RPYT-VM\\.nuget\\packages\\",
-        "outputPath": "\\\\PC-RP\\C# .NET WPF LINQ etc\\_Essais_Sur_Host_VM\\_____PROJECTS\\001\\Infrastructure\\Persistence.Database.Common\\obj\\",
+        "outputPath": "\\\\PC-RP\\C# .NET WPF LINQ etc\\_Essais_Sur_Host_VM\\_____PROJECTS\\001\\Infrastructure\\Transverse.Functions\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\RPYT-VM\\AppData\\Roaming\\NuGet\\NuGet.Config",

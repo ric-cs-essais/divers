@@ -11,9 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure.Server", "In
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure.Authentication", "Infrastructure.Authentication\Infrastructure.Authentication.csproj", "{9F0E9F56-1856-4793-B246-6D2682C3C1A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Persistence.DAO.Database.Sql.Common", "Infrastructure.Persistence.DAO.Database.Sql.Common\Infrastructure.Persistence.DAO.Database.Sql.Common.csproj", "{F344D959-EC6C-44F3-97BD-635DEE745830}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure.Persistence.DAO.Database.Sql.Common", "Infrastructure.Persistence.DAO.Database.Sql.Common\Infrastructure.Persistence.DAO.Database.Sql.Common.csproj", "{F344D959-EC6C-44F3-97BD-635DEE745830}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTests", "ConsoleTests\ConsoleTests.csproj", "{755C500E-565C-465E-A513-44082E39BEE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleTests", "ConsoleTests\ConsoleTests.csproj", "{755C500E-565C-465E-A513-44082E39BEE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transverse.Functions", "Transverse.Functions\Transverse.Functions.csproj", "{BD9473BA-7BAF-4C00-93F7-E218515E1EAA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{755C500E-565C-465E-A513-44082E39BEE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{755C500E-565C-465E-A513-44082E39BEE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{755C500E-565C-465E-A513-44082E39BEE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD9473BA-7BAF-4C00-93F7-E218515E1EAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD9473BA-7BAF-4C00-93F7-E218515E1EAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD9473BA-7BAF-4C00-93F7-E218515E1EAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD9473BA-7BAF-4C00-93F7-E218515E1EAA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
